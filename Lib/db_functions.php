@@ -1,6 +1,6 @@
 <?php
 //INCLUDES-----------------------------------------------------------------
-require_once($_SERVER['DOCUMENT_ROOT'].'/../richard-api/Config/MainConfig.php');
+require_once(__DIR__.'/../Config/MainConfig.php');
 //-------------------------------------------------------------------------
 $DB = "";
 
