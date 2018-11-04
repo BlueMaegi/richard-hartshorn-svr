@@ -6,5 +6,6 @@ define("SERVROOT", '/Applications/MAMP/richard-api/');
 define("DB_NAME", 'RichardWeb');
 define("DB_UNAME", 'server_app');
 define("DB_PWD", 'password');
+define("DB_SERVER", 'localhost:8889');
 
 ?>

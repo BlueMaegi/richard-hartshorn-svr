@@ -8,7 +8,7 @@ $DB = "";
  function connect_to_db()
  {
 	global $DB;
-	$DB = new mysqli("localhost:8889", DB_UNAME, DB_PWD, DB_NAME);
+	$DB = new mysqli(DB_SERVER, DB_UNAME, DB_PWD, DB_NAME);
 
 	if (mysqli_connect_errno($DB))
 	{
